@@ -1,0 +1,103 @@
+.page {
+    margin: 50px 0;
+    background-color: white;
+    padding: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.page__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.personal__image {
+    flex: 0 1 40%;
+    float: left;
+}
+
+.personal__image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.personal__title {
+    margin-bottom: 30px;
+}
+
+
+.experience {
+    margin-bottom: 50px;
+}
+
+.experience__title {
+    margin-bottom: 10px;
+}
+
+.courses {
+    margin-bottom: 50px;
+}
+
+.courses__title {
+    margin-bottom: 20px;
+}
+
+.courses__body {
+    padding: 0 0 10px 40px;
+    position: relative;
+}
+
+.courses__count {
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    font-size: 14px;
+}
+
+.extra__title {
+    margin-bottom: 6px;
+}
+
+.pin {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 49%;
+}
+
+.skills__title {
+    margin-bottom: 10px;
+}
+
+.skills__body {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:780px) {
+    .personal {
+        flex-direction: column;
+    }
+    .personal__image {
+        margin-bottom: 20px;
+    }
+    .personal__body {
+    }
+}
